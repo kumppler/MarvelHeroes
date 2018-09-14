@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="css/layout.css" rel="stylesheet" />
+  <link href="css/pagination.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/apis.js"></script>
+  <script type="text/javascript" src="js/commons.js"></script>
+  <script type="text/javascript" src="js/spahandler.js"></script>
+  <script type="text/javascript" src="js/mobile.js"></script>
+  <title>Hérois Marvel</title>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="headerText ml5">
+      <div>
+        <p>Busca Marvel</p>
+      </div>
+      <div>
+        <p>Caio Ferreira</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex-container" id="heroSearchDiv">
+    <div class="ml5">
+      <input id="heroSearch" type="text" name="hero" placeholder="Nome do personagem"  />
+    </div>
+    <div>
+      <button id="searchButton" onclick="searchHeroButton()" >buscar</button>
+    </div>
+    <div id="notFound" class="hideDiv ml5">
+      Personagem não encontrado!
+    </div>
+    <div id="noValue" class="hideDiv ml5">
+      Digite um nome!
+    </div>
+  </div>
+  <div id="homeDiv" onclick="backDetails(0)" class="hideDiv">&laquo; Home &raquo;</div>
+  <div class="flex-container" id="menuNome">
+    <div class="flex-hero">
+      <div class="menuSeries"><p>Séries</p>
+      </div>
+      <div class="menuEventos"><p>Eventos</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex-hero hideDiv" id="heroData_0"><div id="heroImage"></div><div id="heroSeries"></div><div id="heroEvents"></div>
+</div>
+<div id="firstTen">
+</div>
+<div id="heroInfo" class="hideDiv">
+</div>
+<div class="flex-container pagination" id='pagination'>
+  <a href="#" onclick="pagination(1)">&laquo; Anterior</a>
+  <a href="#" onclick="pagination(2)">Proxima &raquo;</a>
+</div>
+</body>
+</html>

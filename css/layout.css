@@ -1,0 +1,59 @@
+body{
+  font-family: 'TradeGothic';
+}
+.flex-container {
+  display: flex;
+}
+.headerText{
+display: flex;
+justify-content: space-between;
+width: 80%;
+}
+.headerText > div{
+  font-size: large;
+  color: blue;
+}
+.hideDiv{
+  display: none;
+}
+.ml5{
+  margin-left: 5%;
+}
+.flex-hero{
+  justify-content: flex-start;
+  width: 90%;
+  color: white;
+  background-color: red;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.heroName{
+margin-left: 10%;
+color: red;
+font-family: fantasy;
+}
+#heroImage{
+width: 20%;
+}
+#heroImage > img{
+height: 100%;
+width: 35%;
+}
+#heroEvents{
+align-self: center;
+}
+#heroSeries{
+align-self: center;
+width: 40%;
+}
+.menuSeries{
+margin-left: 20%;
+width: 40%;
+float: left;
+font-size: larger;
+}
+.menuEventos{
+width: 40%;
+float: right;
+font-size: larger;
+}
