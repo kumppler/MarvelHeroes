@@ -4,6 +4,6 @@ A simple search using Marvel's api
 
 Alguns exemplos de busca:
 
-Spider-Man
-Iron man
+Spider-Man<br>
+Iron man<br>
 Hulk
